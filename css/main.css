@@ -9,13 +9,7 @@
 
 /* ==========================================================================
    Base styles: opinionated defaults
-   ========================================================================== */
-
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
+   ========================================================================== *
 
 /*
  * Remove text-shadow in selection highlight:
@@ -86,6 +80,89 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   /* INFO
+   font-family: 'Lekton', sans-serif;
+font-family: 'Lexend Tera', sans-serif;
+#152A53 - BLUE
+#EEEFDA - LIGHT GREEN TEXT
+#CAC691 - CAC691 DARKER GREEN/HOVER */
+
+/******* BASE STYLES ******/
+
+html {
+  color: #152A53;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: 'Lekton', sans-serif;
+}
+
+.content-wrapper {
+  padding: 30px 15px;
+}
+
+h1 {
+  font-family: 'Lexend Tera', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  font-family: 'Lekton', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 span {
+  font-weight: 700;
+}
+
+main {
+  margin: 80px;
+}
+
+/******* MOBILE STYLES ******/
+
+header {
+  background-color: #EEEFDA; 
+}
+
+nav ul {
+  text-transform: uppercase;
+  font-weight: 700;
+  list-style: none;
+  margin: 0 0 60px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+  
+}
+
+.nav__item {
+  padding: 0 10px;
+}
+
+#nav__link {
+  color: #152A53;
+  background: #CAC691;
+  border-radius: 100px;
+  padding: .25rem 1rem;
+  width: max-content;
+}
+
+#nav__link:hover {
+  background: #EEEFDA
+}
+
 
 /* ==========================================================================
    Helper classes
