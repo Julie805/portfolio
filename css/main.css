@@ -100,25 +100,27 @@ body {
   margin: 0;
   max-width: 100%;
   font-size: 16px;
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 .content-wrapper {
-  padding: 30px 15px;
+  padding: 30px 30px;
 }
 
 h1 {
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Merriweather', serif;
   text-align: center;
   margin-bottom: 30px;
+  font-size: 2.5rem;
+  letter-spacing: .1rem;
 
 }
 
 h2 {
-  font-family: 'Lekton', sans-serif;
-  font-weight: 400;
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 h2 span {
@@ -126,7 +128,32 @@ h2 span {
 }
 
 main {
-  margin: 80px;
+  margin: 80px 0;
+}
+
+img {
+  margin-bottom: 20px;
+  padding: 0;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem; 
+  margin: 0 0 40px 0;
+}
+
+.p {
+  margin: 0;
+}
+
+.test {
+  margin-bottom: 30px;
+}
+
+p span {
+  font-weight: 700;
 }
 
 /******* MOBILE STYLES ******/
@@ -143,8 +170,7 @@ nav ul {
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content: space-around
-  
+  justify-content: space-around; 
 }
 
 .nav__item {
@@ -160,7 +186,98 @@ nav ul {
 }
 
 #nav__link:hover {
-  background: #EEEFDA
+  background: #EEEFDA;
+}
+
+.project {
+  margin: 50px 0 30px;
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 50px;
+}
+
+.btn {
+  background: #CAC691;
+  color: white;
+  border-radius: 100px;
+  padding: .5rem 1.5rem;
+  width: max-content;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: .02rem;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  background: #EEEFDA;
+  color:#152A53;
+}
+
+.highlight {
+  border: #EEEFDA 2px solid;
+  background: #EEEFDA;
+  padding: .5rem 1.5rem;
+  width: 250px;
+  text-transform: uppercase;
+  font-size: 1.15rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.base-margin {
+  margin: 0 0 10px 0;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.about {
+  background: 
+  #EEEFDA;
+}
+
+#about__img {
+  margin-top: 80px;
+}
+
+#about__headline {
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+#about__callout {
+  border: #CAC691 2px solid;
+  background: #CAC691;
+  padding: .5rem 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons p {
+  margin: 0 0 60px 0;
+  padding: 0 20px;
+  font-size: 2rem;
+}
+
+.social-icons a {
+  color: #152A53;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 
