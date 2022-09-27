@@ -104,7 +104,7 @@ body {
 }
 
 .content-wrapper {
-  padding: 30px 40px;
+  padding: 30px 50px;
 }
 
 h1 {
@@ -135,6 +135,10 @@ img {
   margin-bottom: 20px;
   padding: 0;
   width: 100%;
+}
+
+.border {
+  border: 1px black solid;
 }
 
 h3 {
@@ -171,6 +175,7 @@ header {
   right: 0;
   height: 50px;
   background: #EEEFDA;
+
 }
 
 nav ul {
@@ -178,14 +183,15 @@ nav ul {
   font-weight: 700;
   list-style: none;
   margin: 10px 0 60px 0;
-  padding: 0;
+  padding: 0 10;
   display: flex;
   align-items: center;
-  justify-content: space-around; 
+  justify-content: center; 
+
 }
 
 .nav__item {
-  padding: 0 10px;
+  padding-right: 30px;
 }
 
 .nav__link {
@@ -195,13 +201,23 @@ nav ul {
   padding: .25rem 1rem;
   width: max-content;
 }
-
+/******* test to see if you need this? ******/
+.nav__link:active, .nav__link:visited {
+  color: #152A53;
+  text-decoration: none;
+}
+/******* test to see if you need this? ******/
 .nav__link:hover {
-  background: #EEEFDA;
+  background: white;
+  
 }
 
 #headline {
   margin-top: 100px;
+}
+
+.flex {
+  margin: 0;
 }
 
 .project {
@@ -215,7 +231,7 @@ nav ul {
 
 .btn {
   background: #CAC691;
-  color: white;
+  color: #152A53;
   border-radius: 100px;
   padding: .5rem 1.5rem;
   width: max-content;
@@ -226,6 +242,7 @@ nav ul {
 
 a:link, a:visited {
   text-decoration: none;
+  color:#152A53;
 }
 
 a:hover {
@@ -405,10 +422,66 @@ a:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+/******* TABLET STYLES ******/
 
+@media only screen and (min-width: 768px) {
+
+  .content-wrapper {
+    padding: 60px 80px;
+  }
+
+  .fixed-nav-bar {
+    height: 55px;
+  }
+
+  nav ul {  
+    margin: 10px 0 80px 0;    
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .nav__item {
+    padding-right: 80px;
+  }
+
+  .nav__item, .nav__link {
+    font-size: 1.15rem;
+
+  }
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  #headline {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  .flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .project {
+    width: 47%;
+  }
+
+  
+
+ /********** DESKTOP STYLES ************/
+ 
+ @media only screen and (min-width: 1200px) {
+ 
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
