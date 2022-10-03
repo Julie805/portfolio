@@ -139,6 +139,7 @@ img {
 
 .border {
   border: 1px black solid;
+  margin: 0;
 }
 
 h3 {
@@ -223,6 +224,9 @@ nav ul {
 .project {
   margin: 50px 0 30px;
 }
+.project-title {
+  margin: 20px 0 30px;
+}
 .vertical-center {
   display: flex;
   justify-content: center;
@@ -272,9 +276,10 @@ a:hover {
   margin-bottom: 30px;
 }
 
-.about {
+#about {
   background: 
   #EEEFDA;
+  padding-bottom: 120px;
 }
 
 #about__img {
@@ -460,6 +465,10 @@ a:hover {
     font-size: 1.75rem;
   }
 
+ .base-margin {
+    margin: 30px 0 20px;
+  }
+
   #headline {
     margin-top: 70px;
     margin-bottom: 50px;
@@ -471,9 +480,65 @@ a:hover {
     justify-content: space-between;
   }
 
+  .vertical-center {
+   margin: auto 0;
+  }
+
   .project {
     width: 47%;
+    display: flex;
+    flex-direction: column;
   }
+
+  #skills {
+    padding: 140px 0;
+  }
+
+  .skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .highlight {
+    width: 250px;
+    margin: 10px 15px;
+  }
+
+  #about {
+    margin: 100px 0;
+  }
+
+  .cropped {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 25% 25%;  
+  }
+
+  #about__img {
+    margin: 120px auto 80px;
+    display: block;
+  }
+
+  #contact__header {  
+    padding-bottom: 80px; 
+  }
+
+  .contact-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact__head {
+    width: 48%;
+    padding: 10px 80px;
+    background: #EEEFDA;
+  }
+
+
+
+
 
   
 

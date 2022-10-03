@@ -49,12 +49,12 @@
     </div>
   </header>
   <main>
-    <section class="content-wrapper">
+    <section class="content-wrapper" id="projects">
       <h1>Projects</h1>
       <div class="flex">
         <article class="project">
           <a href="https://julie805.github.io/sticky-notes/" target="_blank"><img class="border" src="img/sticky-notes.png" alt="Sticky notes app example page"></a>
-          <h3>Sticky Notes App</h3>
+          <h3 class="project-title">Sticky Notes App</h3>
           <p>A React app to create new “to-do” notes. Features include live interactive edits (using props and state), as well as the ability to delete notes as well as search for subjects.</p>
           <p class="no-margin"><span>Skills: </span>React, JSX, Components</p>
           <p><span>Tools: </span>Props, State, Lifecycle functions</p>
@@ -63,8 +63,8 @@
           </div>
         </article>
         <article class="project">
-          <a href="https://julie805.github.io/guess-the-word/" target="_blank"><img src="img/guess-the-word.png" alt="Guess the word app example page"></a>
-          <h3>Guess The Word!</h3>
+          <a href="https://julie805.github.io/guess-the-word/" target="_blank"><img class="border" src="img/guess-the-word.png" alt="Guess the word app example page"></a>
+          <h3 class="project-title">Guess The Word!</h3>
           <p>Players try to guess what the mystery word is … before their allotted letters are used up! Words are pulled from a word data store using an API, and are generated at random.</p>
           <p class="no-margin"><span>Skills: </span>Javascript</p>
           <p><span>Tools: </span>API, JSON</p>
@@ -73,8 +73,8 @@
           </div>
         </article>
         <article class="project">
-          <a href="https://julie805.github.io/github-repository-gallery/" target="_blank"><img src="img/github-repo.png" alt="GitHub repository personal page"></a>
-          <h3>GitHub Repository</h3>
+          <a href="https://julie805.github.io/github-repository-gallery/" target="_blank"><img class="border" src="img/github-repo.png" alt="GitHub repository personal page"></a>
+          <h3 class="project-title">GitHub Repository</h3>
           <p>A personalized GitHub gallery using GitHub’s API to pull repo data from my account. Visitors can click on repos to view details, as well as search for specific projects.</p>
           <p class="no-margin"><span>Skills: </span>Javascript</p>
           <p><span>Tools: </span>REST API, GitHub Pages</p>
@@ -83,8 +83,8 @@
           </div>
         </article>
         <article class="project">
-          <a href="https://julie805.github.io/unplugged-retreat/"  target="_blank"><img src="img/unplugged-retreat.png" alt="Unplugged retreat example webpage"></a>
-          <h3>Unplugged Retreat</h3>
+          <a href="https://julie805.github.io/unplugged-retreat/"  target="_blank"><img class="border" src="img/unplugged-retreat.png" alt="Unplugged retreat example webpage"></a>
+          <h3 class="project-title">Unplugged Retreat</h3>
           <p>A multi-page responsive website, coded using Flexbox. The versatile design offers several features including a cards section, interactive map, contact section and more.</p>
           <p class="no-margin"><span>Skills: </span>HTML, CSS, Flexbox</p>
           <p><span>Tools: </span>Photoshop, Chrome DevTools</p>
@@ -124,12 +124,13 @@
       </div>
     </section>
 
-    <section class="about" id="about">
+    <section id="about">
       <div class="content-wrapper">
-        <img id="about__img" src="img/julie-morris.jpg" alt="Julie Morris front end developer">
+        <img id="about__img" class="cropped" src="img/julie-morris.jpg" alt="Julie Morris front end developer">
         <h1>About</h1>
         <h3 id="about__headline">I’m Julie Morris, a Front End Developer based in Ventura, CA.</h3>
-        <p>A drive for problem-solving and constructing clever solutions has always played a pivotal role in my work, which has included wellness recipe development, writing, and graphic design. While on maternity leave, I began learning coding to augment my professional endeavors ... and became utterly enamored with the world of tech in the process. And so, my exciting career change began! I completed the Front End Developer program at Skillcrush coding school, as well as extracurricular courses from Scrimba, and am now actively building beautiful, interactive web experiences full-time.<b> I can’t wait to work with you!</b></p>
+        <p>A drive for problem-solving and constructing clever solutions has always played a pivotal role in my work, which has included wellness recipe development, writing, and graphic design. While on maternity leave, I began learning coding to augment my professional endeavors ... and became utterly enamored with the world of tech in the process. And so, my exciting career change began!</p>
+        <p>I completed the Front End Developer program at Skillcrush coding school, as well as extracurricular courses from Scrimba, and am now actively building beautiful, interactive web experiences full-time.<b> I can’t wait to work with you!</b></p>
         <br/>
         <p id="about__callout"><b>Fun fact!</b> Prior to becoming a developer, my work as superfood chef and <i>New York Times</i> bestselling author amounted to publishing six books, with over half a million copies sold worldwide. I credit these challenging yet rewarding experiences with making me the motivated, detail-oriented, and green-smoothie-fueled coder I am today.</i></p>
       </div>
@@ -138,17 +139,23 @@
 
   <footer id="contact">
     <div class="content-wrapper">
-      <h1>Let&#8217s Connect</h1>
-      <h3 class="contact__head">Hire Me</h3>
-      <div>
-        <p class="contact__info">805.341.3647</p>
-        <p class="contact__info" id="email">seejulielee@gmail.com</p>
+      <h1 id="contact__header">Let&#8217s Connect</h1>
+      <div class="contact-flex">
+        <div>
+          <h3 class="contact__head">Hire Me</h3>
+          <div>
+            <p class="contact__info">805.341.3647</p>
+            <p class="contact__info" id="email">seejulielee@gmail.com</p>
+          </div>
+        </div>
+        <div>
+          <h3 class="contact__head">Follow Me</h3>
+          <div class="social-icons">
+            <p><a href="https://www.linkedin.com/in/julie-morris-85374911" target="blank"><i class="fa-brands fa-linkedin-in"></i></a></p>
+            <p><a href="https://github.com/Julie805" target="blank"><i class="fa-brands fa-github"></i></a></p>
+            <p><a href="https://twitter.com/greenjules" target="blank"><i class="fa-brands fa-twitter"></i></a></p>
+        </div>
       </div>
-      <h3 class="contact__head">Follow Me</h3>
-      <div class="social-icons">
-        <p><a href="https://www.linkedin.com/in/julie-morris-85374911" target="blank"><i class="fa-brands fa-linkedin-in"></i></a></p>
-        <p><a href="https://github.com/Julie805" target="blank"><i class="fa-brands fa-github"></i></a></p>
-        <p><a href="https://twitter.com/greenjules" target="blank"><i class="fa-brands fa-twitter"></i></a></p>
       </div>
       <div class="copyright">
         <p>Copyright 2022 | Julie Morris</p>
