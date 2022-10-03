@@ -113,7 +113,6 @@ h1 {
   margin-bottom: 30px;
   font-size: 2.5rem;
   letter-spacing: .1rem;
-
 }
 
 h2 {
@@ -188,7 +187,6 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center; 
-
 }
 
 .nav__item {
@@ -207,7 +205,7 @@ nav ul {
   color: #152A53;
   text-decoration: none;
 }
-/******* test to see if you need this? ******/
+
 .nav__link:hover {
   background: white;
   
@@ -437,14 +435,12 @@ a:hover {
 
   .fixed-nav-bar {
     height: 55px;
+    padding: 15px 0;
   }
 
   nav ul {  
     margin: 10px 0 80px 0;    
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
   }
 
   .nav__item {
@@ -455,6 +451,7 @@ a:hover {
     font-size: 1.15rem;
 
   }
+
   h1 {
     margin: 0;
     font-size: 3rem;
@@ -538,13 +535,86 @@ a:hover {
 
 
 
-
-
-  
-
  /********** DESKTOP STYLES ************/
  
  @media only screen and (min-width: 1200px) {
+
+  .content-wrapper {
+    padding: 40px 100px;
+  }
+
+  nav ul {  
+    justify-content: flex-end; 
+    padding: 0 50px;
+  }
+
+  .nav__item {
+    padding-right: 45px; 
+  }
+
+  .nav__item, .nav__link {
+    font-size: 1rem;
+  }
+
+  h1 {
+    padding-top: 50px;
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    margin: 0; 
+  }
+
+  h2 {
+    margin: -20px 180px;
+    padding-bottom: 140px;
+    font-size: 1.6rem;
+  }
+
+  .flex {
+    padding-top: 80px;
+    justify-content: space-around;
+  }
+
+  .vertical-center {
+   margin: auto 0;
+  }
+
+  #projects {
+    padding-top: 70px;  
+  }
+
+  .project {
+    width: 26%;
+  }
+
+  h3 {
+    font-size: 1.5rem; 
+  }
+
+  p {
+    margin: 0 0 20px;
+    font-size: 1rem;
+    line-height: 1.65rem;
+  }
+
+  #skills {
+    padding: 70px 200px;
+  }
+
+  .highlight {
+    width: 180px;
+    margin: 10px;
+    font-size: 1rem;
+  }
+
+  #about__flex {
+    display: flex;
+  }
+  
+
+
+    
+
+
  
 }
 @media print,
