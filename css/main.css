@@ -81,12 +81,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* INFO
-   font-family: 'Lekton', sans-serif;
+/* INFO
+font-family: 'Lekton', sans-serif;
 font-family: 'Lexend Tera', sans-serif;
 #152A53 - BLUE
 #EEEFDA - LIGHT GREEN TEXT
-#CAC691 - CAC691 DARKER GREEN/HOVER */
+#CAC691 - DARKER GREEN/HOVER */
 
 /******* BASE STYLES ******/
 
@@ -145,7 +145,7 @@ h3 {
   text-align: center;
   font-weight: 700;
   font-size: 2rem; 
-  margin: 0 0 40px 0;
+  margin: 0px 0 40px 0;
 }
 
 p {
@@ -154,18 +154,19 @@ p {
   line-height: 1.75rem;
 }
 
-.no-margin {
-  margin: 0;
-}
-
 p span {
   font-weight: 700;
 }
 
+.no-margin {
+  margin: 0;
+}
+
+
 /******* MOBILE STYLES ******/
 
 header {
-  background-color: #EEEFDA; 
+  background-color: #EEEFDA;
 }
 
 .fixed-nav-bar {
@@ -175,15 +176,14 @@ header {
   right: 0;
   height: 50px;
   background: #EEEFDA;
-
 }
 
 nav ul {
   text-transform: uppercase;
   font-weight: 700;
   list-style: none;
-  margin: 10px 0 60px 0;
-  padding: 0 10;
+  margin: 10px 0 60px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -200,15 +200,9 @@ nav ul {
   padding: .25rem 1rem;
   width: max-content;
 }
-/******* test to see if you need this? ******/
-.nav__link:active, .nav__link:visited {
-  color: #152A53;
-  text-decoration: none;
-}
 
 .nav__link:hover {
-  background: white;
-  
+  background: white;  
 }
 
 #headline {
@@ -218,17 +212,21 @@ nav ul {
 .flex {
   margin: 0;
 }
-
 .project {
   margin: 50px 0 30px;
 }
-.project-title {
+
+.project__title {
   margin: 20px 0 30px;
 }
 .vertical-center {
   display: flex;
   justify-content: center;
   margin: 25px 0 50px;
+}
+
+.vertical-center a:hover {
+  background: #EEEFDA;
 }
 
 .btn {
@@ -239,6 +237,7 @@ nav ul {
   width: max-content;
   text-transform: uppercase;
   font-size: 1.25rem;
+  font-weight: 700;
   letter-spacing: .02rem;
 }
 
@@ -275,8 +274,7 @@ a:hover {
 }
 
 #about {
-  background: 
-  #EEEFDA;
+  background: #EEEFDA;
   padding-bottom: 120px;
 }
 
@@ -293,6 +291,7 @@ a:hover {
   border: #CAC691 2px solid;
   background: #CAC691;
   padding: .5rem 1.5rem;
+  margin-top: 30px;
 }
 .contact__head {
   font-weight: 300;
