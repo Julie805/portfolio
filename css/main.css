@@ -104,7 +104,7 @@ body {
 }
 
 .content-wrapper {
-  padding: 30px 50px;
+  padding: 50px;
 }
 
 h1 {
@@ -167,6 +167,7 @@ p span {
 
 header {
   background-color: #EEEFDA;
+  padding-bottom: 35px;
 }
 
 .fixed-nav-bar {
@@ -213,7 +214,7 @@ nav ul {
   margin: 0;
 }
 .project {
-  margin: 50px 0 30px;
+  padding-bottom: 50px;
 }
 
 .project__title {
@@ -484,14 +485,19 @@ a:hover {
    margin: auto 0;
   }
 
+  #projects h1{
+    padding-bottom: 60px;
+  }
+
   .project {
-    width: 46%;
+    width: 45%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 70px;
   }
 
   #skills {
-    padding:  0;
+    padding: 0;
   }
 
   .skills {
@@ -517,7 +523,7 @@ a:hover {
   }
 
   #about__img {
-    margin: 80px auto;
+    margin: 50px auto 80px;
     display: block;
   }
 
@@ -528,7 +534,6 @@ a:hover {
   .contact-flex {
     display: flex;
     justify-content: center;
-    
     gap: 15%
   }
 
@@ -539,7 +544,7 @@ a:hover {
   }
 
   h3 {
-    font-size: 1.875rem; 
+    font-size: 1.7rem; 
   }
 
   .contact__info, .social-icons {
@@ -601,6 +606,10 @@ a:hover {
 
   #projects {
     padding-top: 140px;  
+  }
+
+  #projects h1{
+    padding-bottom: 0px;
   }
 
   .project {
@@ -672,18 +681,18 @@ a:hover {
     line-height: 1rem
   }
 
-  .social-icons p {
-  
+  .social-icons p { 
     font-size: 1.75rem;
-
   } 
-  
+
   .copyright p {
     text-align: center;
     margin: 60px 0;
     font-size: .875rem;
   }
 }
+
+
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
@@ -764,5 +773,6 @@ a:hover {
   h3 {
     page-break-after: avoid;
   }
+}
 }
 
