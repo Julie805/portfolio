@@ -91,7 +91,7 @@ font-family: 'Lexend Tera', sans-serif;
 /******* BASE STYLES ******/
 
 html {
-  color: #152A53;
+  color: #303030;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -137,7 +137,7 @@ img {
 }
 
 .border {
-  border: 1px black solid;
+  border: 1px #303030 solid;
   margin: 0;
 }
 
@@ -166,8 +166,7 @@ p span {
 /******* MOBILE STYLES ******/
 
 header {
-  background-color: #EEEFDA;
-  padding-bottom: 35px;
+  background: url('/img/background-clipping-mask.jpg') no-repeat center center fixed #f0da12;
 }
 
 .fixed-nav-bar {
@@ -176,7 +175,7 @@ header {
   left: 0;
   right: 0;
   height: 50px;
-  background: #EEEFDA;
+  background: #f0da12;
 }
 
 nav ul {
@@ -195,19 +194,23 @@ nav ul {
 }
 
 .nav__link {
-  color: #152A53;
-  background: #CAC691;
+  color: #303030;
+  background: white;
   border-radius: 100px;
   padding: .25rem 1rem;
   width: max-content;
 }
 
 .nav__link:hover {
-  background: white;  
+  background: #faf2b5;
 }
 
 #headline {
   margin-top: 100px;
+}
+
+.astericks {
+  color: #f0da12;
 }
 
 .flex {
@@ -223,16 +226,17 @@ nav ul {
 .vertical-center {
   display: flex;
   justify-content: center;
-  margin: 25px 0 50px;
+  margin: 35px 0 50px;
 }
 
 .vertical-center a:hover {
-  background: #EEEFDA;
+  background: #f0da12;
+  border: none;
 }
 
 .btn {
-  background: #CAC691;
-  color: #152A53;
+  background: #faf2b5;
+  color: #303030;
   border-radius: 100px;
   padding: .5rem 1.5rem;
   width: max-content;
@@ -244,17 +248,17 @@ nav ul {
 
 a:link, a:visited {
   text-decoration: none;
-  color:#152A53;
+  color:#303030;
 }
 
 a:hover {
-  background: #EEEFDA;
-  color:#152A53;
+  background: transparent;
+  color: #303030;
 }
 
 .highlight {
-  border: #EEEFDA 2px solid;
-  background: #EEEFDA;
+  border: #faf2b5 2px solid;
+  background: #faf2b5;
   padding: .5rem 1.5rem;
   width: 250px;
   text-transform: uppercase;
@@ -275,12 +279,12 @@ a:hover {
 }
 
 #about {
-  background: #EEEFDA;
+  background: #faf2b5;
   padding-bottom: 120px;
 }
 
 #about__img {
-  margin-top: 80px;
+  margin-top: 80px auto;
 }
 
 #about__headline {
@@ -289,15 +293,16 @@ a:hover {
 }
 
 #about__callout {
-  border: #CAC691 2px solid;
-  background: #CAC691;
+  border: #f0da12 2px solid;
+  background: white;
   padding: .5rem 1.5rem;
   margin-top: 30px;
 }
+
 .contact__head {
   font-weight: 300;
   padding: 10px;
-  background: #EEEFDA;
+  background: #faf2b5;
 }
 
 .contact__info {
@@ -322,12 +327,12 @@ a:hover {
 }
 
 .social-icons a {
-  color: #152A53;
+  color: #303030;
 }
 
 .social-icons a:hover {
   background: white;
-  color: #CAC691;
+  color: #f0da12;
 }
 
 .copyright {
@@ -525,6 +530,7 @@ a:hover {
   #about__img {
     margin: 50px auto 80px;
     display: block;
+    border: white solid 15px;
   }
 
   #contact__header {  
@@ -540,7 +546,6 @@ a:hover {
   .contact__head {
     width: 48%;
     padding: 10px 85px;
-    background: #EEEFDA;
   }
 
   h3 {
@@ -680,6 +685,7 @@ a:hover {
     font-size: 1.25rem;
     line-height: 1rem
   }
+
 
   .social-icons p { 
     font-size: 1.75rem;
