@@ -428,8 +428,12 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
 
+  header {
+    padding-bottom: 80px;
+  }
+
   .content-wrapper {
-    padding: 60px 80px;
+    padding: 140px 80px;
   }
 
   .fixed-nav-bar {
@@ -481,13 +485,13 @@ a:hover {
   }
 
   .project {
-    width: 47%;
+    width: 46%;
     display: flex;
     flex-direction: column;
   }
 
   #skills {
-    padding: 140px 0;
+    padding:  0;
   }
 
   .skills {
@@ -502,7 +506,7 @@ a:hover {
   }
 
   #about {
-    margin: 100px 0;
+    margin: 0;
   }
 
   .cropped {
@@ -513,7 +517,7 @@ a:hover {
   }
 
   #about__img {
-    margin: 120px auto 80px;
+    margin: 80px auto;
     display: block;
   }
 
@@ -542,13 +546,18 @@ a:hover {
     margin-left: 18px;
   }
 
+  
+
+
+
+
 
  /********** DESKTOP STYLES ************/
  
  @media only screen and (min-width: 1200px) {
 
   .content-wrapper {
-    padding: 40px 100px;
+    padding: 140px 100px;
   }
 
   nav ul {  
@@ -565,15 +574,19 @@ a:hover {
   }
 
   h1 {
-    padding-top: 50px;
+    padding-top: 0px;
     font-size: 2.5rem;
     letter-spacing: .1rem;
     margin: 0; 
   }
 
+  #headline {
+    padding-top: 50px;
+  }
+
   h2 {
     margin: -20px 180px;
-    padding-bottom: 140px;
+    padding: 0px;
     font-size: 1.6rem;
   }
 
@@ -587,7 +600,7 @@ a:hover {
   }
 
   #projects {
-    padding-top: 70px;  
+    padding-top: 140px;  
   }
 
   .project {
@@ -605,13 +618,17 @@ a:hover {
   }
 
   #skills {
-    padding: 70px 200px;
+    padding: 0px 200px;
   }
 
   .highlight {
     width: 180px;
     margin: 10px;
     font-size: 1rem;
+  }
+
+  #about__about {
+    padding-top: 50px;
   }
 
   #about__flex {
