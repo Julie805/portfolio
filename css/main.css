@@ -293,8 +293,8 @@ a:hover {
 }
 
 #about__callout {
-  border: #f0da12 2px solid;
-  background: white;
+  border: #F5F5F5 2px solid;
+  background: 	#F5F5F5;
   padding: .5rem 1.5rem;
   margin-top: 30px;
 }
