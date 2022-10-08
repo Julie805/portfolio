@@ -217,11 +217,15 @@ nav ul {
   margin: 0;
 }
 .project {
-  padding-bottom: 50px;
+  padding: 50px 25px 25px;
+  margin-bottom: 50px;
+  background: #F5F5F5;
 }
 
 .project__title {
   margin: 20px 0 30px;
+  background: #faf2b5;
+  border: #faf2b5 3px solid;
 }
 .vertical-center {
   display: flex;
@@ -230,13 +234,13 @@ nav ul {
 }
 
 .vertical-center a:hover {
-  background: #f0da12;
+  background: #faf2b5;
+  color: #303030;
   border: none;
 }
 
 .btn {
-  background: #faf2b5;
-  color: #303030;
+  background: #f0da12;
   border-radius: 100px;
   padding: .5rem 1.5rem;
   width: max-content;
@@ -495,7 +499,7 @@ a:hover {
   }
 
   .project {
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     padding-bottom: 70px;
@@ -549,7 +553,7 @@ a:hover {
   }
 
   h3 {
-    font-size: 1.7rem; 
+    font-size: 1.65rem; 
   }
 
   .contact__info, .social-icons {
