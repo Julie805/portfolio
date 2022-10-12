@@ -166,7 +166,7 @@ p span {
 /******* MOBILE STYLES ******/
 
 header {
-  background: url("img/background-clipping-mask.jpg") no-repeat center center fixed #f0da12;
+  background: url("../img/background-clipping-mask.jpg") no-repeat center center fixed #f0da12;
 }
 
 .fixed-nav-bar {
@@ -353,6 +353,9 @@ a:hover {
 .copyright {
   text-align: center;
   margin: 60px 0;
+}
+
+.copyright p {
   font-size: .875rem;
 }
 
