@@ -214,7 +214,8 @@ nav ul {
   margin-top: 100px;
 }
 
-.astericks {
+
+.bullet {
   color: #f0da12;
 }
 
@@ -247,7 +248,6 @@ nav ul {
   color: #303030;
   border: none;
 }
-
 
 
 .btn {
@@ -317,7 +317,7 @@ a:hover {
 form {
   display: flex;
   flex-direction: column; 
-  width: 325px;
+  width: 300px;
   margin: 0 auto;
   padding: 0px 0 40px;
   margin-top: 0px;
@@ -326,7 +326,7 @@ form {
   
 }
 
-label  {
+label {
     color: #303030;
     font-size: 20px;   
 }
@@ -645,7 +645,11 @@ button:visited {
     font-size: 1.65rem; 
   }
 
-  .contact__info, .social-icons {
+  form {
+    width: 325px
+  }
+
+   .social-icons {
     margin-left: 18px;
   }
 
