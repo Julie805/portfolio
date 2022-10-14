@@ -112,7 +112,7 @@ h1 {
   text-align: center;
   margin-bottom: 30px;
   font-size: 2.5rem;
-  letter-spacing: .1rem;
+  letter-spacing: .1rem
 }
 
 h2 {
@@ -212,11 +212,6 @@ nav ul {
 
 #headline {
   margin-top: 100px;
-}
-
-
-.bullet {
-  color: #f0da12;
 }
 
 .flex {
