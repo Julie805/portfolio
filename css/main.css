@@ -317,20 +317,48 @@ a:hover {
 form {
   display: flex;
   flex-direction: column; 
-  width: 230px;
+  width: 300px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0px 0 40px;
   margin-top: 0px;
   gap: 5px;
   border-radius: 5px;
-  box-shadow: 1px 1px 30px 2px whitesmoke; 
+  
 }
 
-input {
-  border: 1px solid #0891b2;
+label  {
+    color: #303030;
+    font-size: 20px;   
+}
+
+input, textarea {
+  border: 1px solid #303030;
   padding: 8px;
   border-radius: 5px; 
+  margin-top: 15px;
 }
+
+button {
+    margin-top: 10px;
+    padding: 12px 17px;
+    border: none;
+    background-color: #303030;
+    color: #ecfeff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+button:hover {
+  background: #f0da12;
+
+}
+
+button:visited {
+  background: #303030;
+}
+
 
 .contact__head {
   font-weight: 300;
@@ -393,14 +421,17 @@ input {
 }
 
 #portfolio-form {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 5px;
 }
 
 #portfolio-btn {
   background: white;
+  color: #303030;
   border: none;
   border-radius: 100px;
+  margin: 0 auto;
   padding: .7rem 1.65rem;
   width: max-content;
   text-transform: uppercase;
