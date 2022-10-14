@@ -317,7 +317,7 @@ a:hover {
 form {
   display: flex;
   flex-direction: column; 
-  width: 300px;
+  width: 325px;
   margin: 0 auto;
   padding: 0px 0 40px;
   margin-top: 0px;
@@ -339,7 +339,7 @@ input, textarea {
 }
 
 button {
-    margin-top: 10px;
+    margin: 15px 0 10px;
     padding: 12px 17px;
     border: none;
     background-color: #303030;
@@ -352,13 +352,11 @@ button {
 
 button:hover {
   background: #f0da12;
-
 }
 
 button:visited {
   background: #303030;
 }
-
 
 .contact__head {
   font-weight: 300;
@@ -366,16 +364,6 @@ button:visited {
   background: #faf2b5;
 }
 
-.contact__info {
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 1rem;
-}
-
-#email {
-  margin-bottom: 80px;
-
-}
 .social-icons {
   display: flex;
   justify-content: center;
