@@ -51,7 +51,7 @@
   </header>
   <main>
     <section class="content-wrapper" id="projects">
-      <h2 class="category-header">Projects</h2>
+      <h2 class="category-header" id="project-header">Projects</h2>
       <div class="flex">
         <article class="project">
           <div>
@@ -148,7 +148,7 @@
           <h2 class="category-header" id="about__about">About</h2>
           <h3 id="about__headline">I’m Julie Morris, a Front End Developer based in Ventura, California.</h3>
           <p>A drive for problem-solving and constructing clever solutions has always played a pivotal role in my work, which has included wellness recipe development, writing, and graphic design. While on maternity leave, I began learning coding to augment my professional endeavors ... and became utterly enamored with the world of tech in the process. And so, my exciting career change began!</p>
-          <p>I completed the Front End Developer program at Skillcrush coding school, as well as extracurricular courses from Scrimba, and am now actively building beautiful, interactive web experiences full-time.<b> I can’t wait to work with you!</b></p>
+          <p>I completed the Front End Developer program at Skillcrush coding school, as well as extracurricular courses from Scrimba and Udemy, and am now actively building beautiful, interactive web experiences full-time.<b> I can’t wait to work with you!</b></p>
           <p id="about__callout"><b>Fun fact!</b> Prior to becoming a developer, my work as superfood chef and <i>New York Times</i> bestselling author amounted to publishing six books, with over half a million copies sold worldwide. I credit these challenging yet rewarding experiences with shaping me into the motivated, detail-oriented, and green-smoothie-fueled coder I am today.</p>
         </div>
       </div>
@@ -156,24 +156,21 @@
   </main>
 
   <footer id="contact">
-    <div class="content-wrapper">
+    <div class="content-wrapper" id="footer-wrapper">
       <h2 class="category-header" id="contact__header">Let&#8217;s Connect</h2>
-      <div class="contact-flex">
-        <div>
-          <h3 class="contact__head">Hire Me</h3>
-          <div>
-            <form action="https://formsubmit.co/250b03653c8831fad3344e0f71ac5ed2" method="POST">
-              <label>How can I help you? 👋 </label>
-              <input type="text" name="name" placeholder="Full Name" aria-label="Full name" required>
-              <input type="email" name="email" placeholder="Email Address" aria-label="Email address" required>
-              <textarea rows="7" name="message" placeholder="Message" aria-label="Message"></textarea>
-              <input type="hidden" name="_next" value="https://julie805.github.io/portfolio/thanks.html">
-              <input type="hidden" name="_subject" value="Contact request on Julie Morris portfolio">
-              <input type="hidden" name="_captcha" value="false">
-              <button>Send</button>
-            </form>
-          </div>
-        </div>
+      <div >       
+        <h3 class="contact__head">Hire Me</h3>
+        
+        <form action="https://formsubmit.co/250b03653c8831fad3344e0f71ac5ed2" method="POST">
+          <label>How can I help you? 👋 </label>
+          <input type="text" name="name" placeholder="Full Name" aria-label="Full name" required>              <input type="email" name="email" placeholder="Email Address" aria-label="Email address" required>
+          <textarea rows="7" name="message" placeholder="Message" aria-label="Message"></textarea>
+          <input type="hidden" name="_next" value="https://julie805.github.io/portfolio/thanks.html">            
+          <input type="hidden" name="_subject" value="Contact request on Julie Morris portfolio">
+          <input type="hidden" name="_captcha" value="false">
+          <button>Send</button>
+        </form>
+      
         <div>
           <h3 class="contact__head">Follow Me</h3>
           <div class="social-icons">
