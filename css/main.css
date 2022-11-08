@@ -90,6 +90,13 @@ font-family: 'Lexend Tera', sans-serif;
 
 /******* BASE STYLES ******/
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 html {
   color: #303030;
   font-size: 1em;
@@ -324,8 +331,7 @@ form {
   width: 100%;
   margin: 0 auto 80px;
   padding: 0px 0 40px;
-  border-radius: 5px;
-  
+  border-radius: 5px;  
 }
 
 label {
@@ -536,7 +542,7 @@ button:visited {
   }
 
   .fixed-nav-bar {
-    height: 55px;
+    height: 85px;
     padding: 15px 0;
   }
 
@@ -593,7 +599,7 @@ button:visited {
   }
 
   .project {
-    width: 40%;
+    width: 47%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -611,7 +617,7 @@ button:visited {
   }
 
   .highlight {
-    width: 250px;
+    width: 350px;
     margin: 10px 15px;
   }
 
@@ -648,10 +654,9 @@ button:visited {
   }
  
   form {
-    width: 70%;
+    width: 50%;
     max-width: 600px;
-    padding: 0 85px;
-    margin-bottom: 80px;
+    margin-bottom: 0 auto 80px;
   }
 
   #footer-wrapper {
@@ -677,6 +682,10 @@ button:visited {
     max-width: 1350px;
     margin:  0 auto;
   }
+
+  .fixed-nav-bar {
+    height: 80px;
+  } 
 
   nav ul {  
     justify-content: flex-end; 
@@ -731,7 +740,7 @@ button:visited {
   }
 
   .project {
-    width: 26%;
+    width: 30%;
   }
 
   h3 {
@@ -745,11 +754,11 @@ button:visited {
   }
 
   #skills {
-    padding: 0px 200px;
+    padding: 0px 100px;
   }
 
   .highlight {
-    width: 180px;
+    width: 250px;
     margin: 10px;
     font-size: 1rem;
   }
