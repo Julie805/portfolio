@@ -225,8 +225,13 @@ nav ul {
   background: #faf2b5;
 }
 
-#headline {
-  margin-top: 100px;
+.headline {
+  margin: 100px auto 0px;
+}
+
+@keyframes typing {
+  from {width: 0}
+  to {width: 100%}
 }
 
 .flex {
@@ -574,9 +579,8 @@ button:visited {
     margin: 30px 0 20px;
   }
 
-  #headline {
-    margin-top: 70px;
-    margin-bottom: 50px;
+  .headline {
+    margin: 70px auto 50px;
   }
 
   .flex {
@@ -671,8 +675,6 @@ button:visited {
 }
 
 
-
-
  /********** DESKTOP STYLES ************/
  
  @media only screen and (min-width: 1200px) {
@@ -707,7 +709,7 @@ button:visited {
     margin: 0; 
   }
 
-  #headline {
+  .headline {
     padding-top: 50px;
   }
 
@@ -905,5 +907,5 @@ button:visited {
     page-break-after: avoid;
   }
 }
-}
+
 
